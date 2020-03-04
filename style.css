@@ -1,0 +1,77 @@
+body{
+  background-image: url(pic/b1.jpg);
+  background-size: cover;
+}
+		
+header{
+  background:rgb(0,0,0,0.8);
+  background-image: url(pic/bp.jpg);
+  background-size: cover;
+  color: white ;
+  text-align: center;
+  overflow:hidden;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+footer{
+  background:rgb(0,0,0,0.8);
+  background-image: url(pic/bp.jpg);
+  background-size: cover;
+  color: white ;
+  text-align: center;
+  overflow:hidden;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+fieldset{
+  border-radius: 35px;
+  height: 80%;
+  width: 70%;
+  background-image: url(pic/lo.png);
+  background-color: lightblue;
+  background-size: cover;
+  overflow:hidden;
+  text-align: left;
+  color:;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+}
+.time{
+  text-align: right;
+}
+.row{
+  padding: 15px;
+}
+.collapsible {
+  background-color: lightblue;
+  color: ;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:;
+  text-align: center;
+}
+.ch{
+  background-color: #57b846;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  font-weight: bold;
+
+}
